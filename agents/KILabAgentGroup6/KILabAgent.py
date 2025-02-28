@@ -2,17 +2,17 @@ import math
 from typing import List, Optional, Tuple
 
 import numpy as np
-from environment.Battlesnake.agents.BaseAgent import BaseAgent
-from environment.Battlesnake.helper.DirectionUtil import DirectionUtil
-from environment.Battlesnake.model.board_state import BoardState
-from environment.Battlesnake.model.Direction import Direction
-from environment.Battlesnake.model.GameInfo import GameInfo
-from environment.Battlesnake.model.grid_map import GridMap
-from environment.Battlesnake.model.MoveResult import MoveResult
-from environment.Battlesnake.model.Occupant import Occupant
-from environment.Battlesnake.model.Position import Position
-from environment.Battlesnake.model.Snake import Snake
-from environment.Battlesnake.util.kl_priority_queue import KLPriorityQueue
+from Battlesnake.agents.BaseAgent import BaseAgent
+from Battlesnake.helper.DirectionUtil import DirectionUtil
+from Battlesnake.model.board_state import BoardState
+from Battlesnake.model.Direction import Direction
+from Battlesnake.model.GameInfo import GameInfo
+from Battlesnake.model.grid_map import GridMap
+from Battlesnake.model.MoveResult import MoveResult
+from Battlesnake.model.Occupant import Occupant
+from Battlesnake.model.Position import Position
+from Battlesnake.model.Snake import Snake
+from Battlesnake.util.kl_priority_queue import KLPriorityQueue
 
 
 class KILabAgent(BaseAgent):

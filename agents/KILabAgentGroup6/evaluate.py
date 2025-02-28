@@ -1,18 +1,18 @@
 from typing import List, Optional, Tuple
-from environment.Battlesnake.model.Direction import Direction
-from environment.Battlesnake.model.Occupant import Occupant
-from environment.Battlesnake.model.Snake import Snake
-from environment.Battlesnake.model.board_state import BoardState
-from environment.Battlesnake.model.Position import Position
-from environment.Battlesnake.model.grid_map import GridMap
-from environment.Battlesnake.helper.DirectionUtil import DirectionUtil
+from Battlesnake.model.Direction import Direction
+from Battlesnake.model.Occupant import Occupant
+from Battlesnake.model.Snake import Snake
+from Battlesnake.model.board_state import BoardState
+from Battlesnake.model.Position import Position
+from Battlesnake.model.grid_map import GridMap
+from Battlesnake.helper.DirectionUtil import DirectionUtil
 import numpy.typing as npt
 import math
 import numpy as np
 import copy
 import time
 
-from environment.Battlesnake.util.kl_priority_queue import KLPriorityQueue
+from Battlesnake.util.kl_priority_queue import KLPriorityQueue
 
 
 UNKNOWN_BODY = Position(-1, -1)
