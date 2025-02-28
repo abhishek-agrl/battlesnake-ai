@@ -1,0 +1,11 @@
+name: ki-labor
+channels:
+  - defaults
+dependencies:
+  - pip>=21.2
+  - python=3.11
+  - swig>=3.0 # Required for box2d on windows
+  - conda-forge::box2d-py>=2.3.8
+  - pip:
+    - -r requirements.txt
+

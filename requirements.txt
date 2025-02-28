@@ -1,0 +1,4 @@
+pygame>=1.9.6
+numpy<2
+matplotlib>=3.3.2
+optuna
